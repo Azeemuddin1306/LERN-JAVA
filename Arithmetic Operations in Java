@@ -1,0 +1,15 @@
+//Arithmetic operations on two numbers
+import java.util.Scanner;
+class ArithmeticOperations{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        float num1=scan.nextFloat();
+        System.out.print("Enter a number: ");
+        float num2=scan.nextFloat();
+        System.out.println("Addition: "+(num1+num2));
+        System.out.println("Subtraction: "+(num1-num2));
+        System.out.println("Multiplication: "+(num1*num2));
+        System.out.println("Division: "+(num1/num2));
+    }
+}
