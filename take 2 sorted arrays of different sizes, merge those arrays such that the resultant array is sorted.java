@@ -8,24 +8,16 @@ class Arrays_Mrng_Session {
         
         while (i < arr1.length && j < arr2.length) {
             if (arr1[i] <= arr2[j]) {
-                res[k] = arr1[i];
-                k++;
-                i++;
+                res[k++] = arr1[i++];
             } else {
-                res[k] = arr2[j];
-                k++;
-                j++;
+                res[k++] = arr2[j++];
             }
         }
         while (i < arr1.length) {
-            res[k] = arr1[i];
-            k++;
-            i++;
+            res[k++] = arr1[i++];
         }
         while (j < arr2.length) {
-            res[k] = arr2[j];
-            k++;
-            j++;
+            res[k++] = arr2[j++];
         }
         return res;
     }
