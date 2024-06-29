@@ -2,7 +2,7 @@
 import java.util.Scanner;
 class Arrays{
     static void SubArrays(int[]ar,int size){
-        for(int i=0;i<ar.length-size;i++){
+        for(int i=0;i<=ar.length-size;i++){
             for(int j=i;j<i+size;j++){
                 System.out.print(ar[j]+" ");
             }
