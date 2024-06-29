@@ -1,4 +1,4 @@
-//Given array of size n, print all subarrays of size k
+//Given array of size n, print all subarrays of array
 import java.util.Scanner;
 class Arrays{
     static void SubArrays(int[]ar,int size){
